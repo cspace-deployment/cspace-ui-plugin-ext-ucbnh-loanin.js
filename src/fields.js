@@ -68,6 +68,7 @@ export default (configContext) => {
                 defaultMessage: 'Geography',
               },
             }),
+            repeating: true,
             view: {
               type: TextInput,
             },
@@ -88,6 +89,7 @@ export default (configContext) => {
                 defaultMessage: 'Taxonomy',
               },
             }),
+            repeating: true,
             view: {
               type: AutocompleteInput,
               props: {
@@ -111,6 +113,7 @@ export default (configContext) => {
                 defaultMessage: 'Object kind',
               },
             }),
+            repeating: true,
             view: {
               type: OptionPickerInput,
               props: {
